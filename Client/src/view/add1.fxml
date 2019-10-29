@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="270.0" style="-fx-background-color: #2F4F4F;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddController">
+   <children>
+      <Label layoutX="96.0" layoutY="14.0" text="Поиск" textFill="#fafafa">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="66.0" prefHeight="236.0" prefWidth="270.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label layoutX="23.0" layoutY="91.0" prefHeight="27.0" prefWidth="84.0" text="Автор" />
+            <TextField fx:id="authorField" layoutX="118.0" layoutY="91.0" prefHeight="27.0" prefWidth="125.0" />
+            <TextField fx:id="nameField" layoutX="118.0" layoutY="42.0" prefHeight="27.0" prefWidth="125.0" />
+            <Label layoutX="23.0" layoutY="42.0" prefHeight="27.0" prefWidth="78.0" text="Название" />
+            <Button fx:id="submitButton" layoutX="50.0" layoutY="183.0" mnemonicParsing="false" onAction="#okClick" prefHeight="27.0" prefWidth="68.0" text="Ок" />
+            <Button fx:id="cancelButton" layoutX="153.0" layoutY="183.0" mnemonicParsing="false" onAction="#cancClick" prefHeight="27.0" prefWidth="68.0" text="Отмена" />
+            <TextField fx:id="authorField" layoutX="118.0" layoutY="137.0" prefHeight="27.0" prefWidth="125.0" />
+            <Label layoutX="23.0" layoutY="137.0" prefHeight="27.0" prefWidth="84.0" text="Жанр" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
